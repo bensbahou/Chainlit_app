@@ -1,8 +1,11 @@
 import os
 from langchain import PromptTemplate, OpenAI, LLMChain
 import chainlit as cl
+# get apikey from .env file
+from dotenv import load_dotenv
+load_dotenv()
 
-os.environ["OPENAI_API_KEY"] = "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"
+
 
 template = """Question: {question}
 

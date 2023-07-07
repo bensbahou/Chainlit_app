@@ -4,7 +4,7 @@ FROM python
 ADD requirements.txt .
 RUN pip install -r requirements.txt
 
-ADD app.py chainlit.md llmapp.py .
+ADD app.py chainlit.md llmapp.py .env .
 
 # bind the port 8000 in container to 8000 in host
 #EXPOSE 8000
