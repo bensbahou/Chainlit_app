@@ -1,3 +1,4 @@
 .env
 langflow.db
 /logs
+langflow.db
