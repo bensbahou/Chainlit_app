@@ -1,1 +1,3 @@
 .env
+langflow.db
+/logs
